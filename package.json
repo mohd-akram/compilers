@@ -1,0 +1,25 @@
+{
+  "name": "compilers.js",
+  "version": "1.0.1",
+  "description": "A list of compilers with some metadata about each one.",
+  "main": "lib/compilers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohd-akram/compilers.git"
+  },
+  "keywords": [
+    "compilers"
+  ],
+  "author": "Mohamed Akram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohd-akram/compilers/issues"
+  },
+  "homepage": "https://github.com/mohd-akram/compilers#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}

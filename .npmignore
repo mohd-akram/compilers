@@ -1,0 +1,5 @@
+.npmignore
+*.tgz
+.git*
+tags
+src/
