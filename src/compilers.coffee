@@ -178,6 +178,11 @@
   type: 'Intermediate'
 ,
   # Compiled to CIL
+  name: 'IronPython'
+  source: 'Python'
+  target: 'CIL'
+  type: 'Intermediate'
+,
   name: 'Roslyn'
   source: 'C#'
   target: 'CIL'
