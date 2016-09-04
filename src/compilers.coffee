@@ -1,5 +1,10 @@
 @COMPILERS = [
   # Transpilers
+  name: 'GHC C'
+  source: 'Haskell'
+  target: 'C'
+  type: 'Transpiler'
+,
   name: 'Haxe ActionScript Compiler'
   source: 'Haxe'
   target: 'ActionScript'
@@ -40,6 +45,26 @@
   target: 'Python'
   type: 'Transpiler'
 ,
+  name: 'MoonScript Compiler'
+  source: 'MoonScript'
+  target: 'Lua'
+  type: 'Transpiler'
+,
+  name: 'Nim C Compiler'
+  source: 'Nim'
+  target: 'C'
+  type: 'Transpiler'
+,
+  name: 'Nim C++ Compiler'
+  source: 'Nim'
+  target: 'C++'
+  type: 'Transpiler'
+,
+  name: 'Nim Objective-C Compiler'
+  source: 'Nim'
+  target: 'Objective-C'
+  type: 'Transpiler'
+,
   # Compiled to JavaScript
   name: 'Bridge.NET'
   source: 'C#'
@@ -71,7 +96,7 @@
   target: 'JavaScript'
   type: 'Transpiler'
 ,
-  name: 'Dart-to-JavaScript Compiler'
+  name: 'Dart-to-JavaScript'
   source: 'Dart'
   target: 'JavaScript'
   type: 'Transpiler'
@@ -121,6 +146,11 @@
   target: 'JavaScript'
   type: 'Transpiler'
 ,
+  name: 'Nim JavaScript Compiler'
+  source: 'Nim'
+  target: 'JavaScript'
+  type: 'Transpiler'
+,
   name: 'Scala.js'
   source: 'Scala'
   target: 'JavaScript'
@@ -142,29 +172,34 @@
   type: 'Transpiler'
 ,
   # Compiled to intermediate language
-  name: 'Clang C Compiler'
+  name: 'Clang C'
   source: 'C'
   target: 'LLVM IR'
   type: 'Intermediate'
 ,
-  name: 'Clang C++ Compiler'
+  name: 'Clang C++'
   source: 'C++'
   target: 'LLVM IR'
   type: 'Intermediate'
 ,
-  name: 'Clang Objective-C Compiler'
+  name: 'Clang Objective-C'
   source: 'Objective-C'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+,
+  name: 'GHC LLVM'
+  source: 'Haskell'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+,
+  name: 'Julia Compiler',
+  source: 'Julia'
   target: 'LLVM IR'
   type: 'Intermediate'
 ,
   name: 'LDC'
   source: 'D'
   target: 'LLVM IR'
-  type: 'Intermediate'
-,
-  name: 'Nim Compiler'
-  source: 'Nim'
-  target: 'C'
   type: 'Intermediate'
 ,
   name: 'Rust Compiler'
@@ -183,8 +218,18 @@
   target: 'CIL'
   type: 'Intermediate'
 ,
-  name: 'Roslyn'
+  name: 'Phalanger'
+  source: 'PHP'
+  target: 'CIL'
+  type: 'Intermediate'
+,
+  name: 'Roslyn C#'
   source: 'C#'
+  target: 'CIL'
+  type: 'Intermediate'
+,
+  name: 'Roslyn VB.NET'
+  source: 'Visual Basic .NET'
   target: 'CIL'
   type: 'Intermediate'
 ,
@@ -342,6 +387,16 @@
   type: 'JIT'
 ,
   # Assemblers
+  name: 'FASM'
+  source: 'Assembly'
+  target: 'Machine Code'
+  type: 'Assembler'
+,
+  name: 'GAS'
+  source: 'Assembly'
+  target: 'Machine Code'
+  type: 'Assembler'
+,
   name: 'MASM'
   source: 'Assembly'
   target: 'Machine Code'
