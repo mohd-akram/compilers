@@ -407,4 +407,9 @@
   target: 'Machine Code'
   type: 'Assembler'
 ,
+  name: 'YASM'
+  source: 'Assembly'
+  target: 'Machine Code'
+  type: 'Assembler'
+,
 ]
