@@ -1,7 +1,7 @@
 Compilers
 =========
 
-The list of compilers used is available as an NPM module:
+This module contains a list of compilers along with some metadata.
 
     npm install compilers.js
 
