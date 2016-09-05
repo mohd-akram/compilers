@@ -193,6 +193,12 @@
   type: 'Transpiler'
   url: 'http://nim-lang.org/'
 ,
+  name: 'Opal'
+  source: 'Ruby'
+  target: 'JavaScript'
+  type: 'Transpiler'
+  url: 'http://opalrb.org/'
+,
   name: 'Scala.js'
   source: 'Scala'
   target: 'JavaScript'
@@ -321,6 +327,12 @@
   target: 'Java Bytecode'
   type: 'Intermediate'
   url: 'https://en.wikipedia.org/wiki/Java_compiler' # Could be improved
+,
+  name: 'JRuby'
+  source: 'Ruby'
+  target: 'Java Bytecode'
+  type: 'Intermediate'
+  url: 'http://jruby.org/'
 ,
   name: 'Jython'
   source: 'Python'
