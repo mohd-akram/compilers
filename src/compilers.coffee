@@ -4,55 +4,55 @@
   source: 'Haskell'
   target: 'C'
   type: 'Transpiler'
-  url: 'http://haskell.org/' # Could be improved
+  url: 'https://www.haskell.org/ghc/'
 ,
   name: 'Haxe ActionScript Compiler'
   source: 'Haxe'
   target: 'ActionScript'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'Haxe C# Compiler'
   source: 'Haxe'
   target: 'C#'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'Haxe C++ Compiler'
   source: 'Haxe'
   target: 'C++'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'Haxe Java Compiler'
   source: 'Haxe'
   target: 'Java'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'Haxe Lua Compiler'
   source: 'Haxe'
   target: 'Lua'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'Haxe PHP Compiler'
   source: 'Haxe'
   target: 'PHP'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'Haxe Python Compiler'
   source: 'Haxe'
   target: 'Python'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'Js2Py'
   source: 'JavaScript'
   target: 'Python'
   type: 'Transpiler'
-  url: 'https://piotr-dabkowski.appspot.com/projects'
+  url: 'https://github.com/PiotrDabkowski/Js2Py'
 ,
   name: 'MoonScript Compiler'
   source: 'MoonScript'
@@ -119,7 +119,7 @@
   source: 'Dart'
   target: 'JavaScript'
   type: 'Transpiler'
-  url: 'https://www.dartlang.org/'
+  url: 'https://webdev.dartlang.org/tools/dart2js'
 ,
   name: 'Elm Compiler'
   source: 'Elm'
@@ -167,7 +167,7 @@
   source: 'Haxe'
   target: 'JavaScript'
   type: 'Transpiler'
-  url: 'http://haxe.org/'
+  url: 'https://haxe.org/'
 ,
   name: 'JSIL'
   source: 'CIL'
@@ -240,7 +240,7 @@
   source: 'Haskell'
   target: 'LLVM IR'
   type: 'Intermediate'
-  url: 'https://www.haskell.org/' # Could be improved
+  url: 'https://www.haskell.org/ghc/'
 ,
   name: 'Julia Compiler',
   source: 'Julia'
@@ -295,7 +295,7 @@
   source: 'F#'
   target: 'CIL'
   type: 'Intermediate'
-  url: 'https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp' # Could be improved
+  url: 'https://github.com/Microsoft/visualfsharp'
 ,
   # Compiled to Java bytecode
   name: 'Ceylon Compiler'
@@ -375,7 +375,7 @@
   source: 'Haskell'
   target: 'Machine Code'
   type: 'Native'
-  url: 'https://www.haskell.org/' # Could be improved
+  url: 'https://www.haskell.org/ghc/'
 ,
   name: 'UHC'
   source: 'Haskell'
