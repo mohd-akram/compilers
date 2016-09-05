@@ -121,6 +121,16 @@
   target: 'JavaScript'
   type: 'Transpiler'
 ,
+  name: 'Haste'
+  source: 'Haskell'
+  target: 'JavaScript'
+  type: 'Transpiler'
+,
+  name: 'UHC JavaScript Compiler'
+  source: 'Haskell'
+  target: 'JavaScript'
+  type: 'Transpiler'
+,
   name: 'GopherJS'
   source: 'Go'
   target: 'JavaScript'
@@ -301,6 +311,11 @@
   type: 'Native'
 ,
   name: 'GHC'
+  source: 'Haskell'
+  target: 'Machine Code'
+  type: 'Native'
+,
+  name: 'UHC'
   source: 'Haskell'
   target: 'Machine Code'
   type: 'Native'
