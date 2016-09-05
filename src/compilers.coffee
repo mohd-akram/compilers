@@ -149,11 +149,13 @@
   source: 'Haskell'
   target: 'JavaScript'
   type: 'Transpiler'
+  url: 'http://haste-lang.org'
 ,
   name: 'UHC JavaScript Compiler'
   source: 'Haskell'
   target: 'JavaScript'
   type: 'Transpiler'
+  url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
 ,
   name: 'GopherJS'
   source: 'Go'
@@ -379,6 +381,7 @@
   source: 'Haskell'
   target: 'Machine Code'
   type: 'Native'
+  url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
 ,
   name: 'GNAT'
   source: 'Ada'
