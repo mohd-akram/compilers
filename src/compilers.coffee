@@ -145,6 +145,16 @@
   type: 'Transpiler'
   url: 'https://github.com/ghcjs'
 ,
+  name: 'Haste'
+  source: 'Haskell'
+  target: 'JavaScript'
+  type: 'Transpiler'
+,
+  name: 'UHC JavaScript Compiler'
+  source: 'Haskell'
+  target: 'JavaScript'
+  type: 'Transpiler'
+,
   name: 'GopherJS'
   source: 'Go'
   target: 'JavaScript'
@@ -364,6 +374,11 @@
   target: 'Machine Code'
   type: 'Native'
   url: 'https://www.haskell.org/' # Could be improved
+,
+  name: 'UHC'
+  source: 'Haskell'
+  target: 'Machine Code'
+  type: 'Native'
 ,
   name: 'GNAT'
   source: 'Ada'
