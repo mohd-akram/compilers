@@ -54,12 +54,6 @@
   type: 'Transpiler'
   url: 'https://piotr-dabkowski.appspot.com/projects'
 ,
-  name: 'Julia2c'
-  source: 'Julia'
-  target: 'C'
-  type: 'Transpiler'
-  url: 'https://github.com/IntelLabs/julia/tree/j2c/j2c'
-,
   name: 'LLVM C Backend'
   source: 'LLVM IR'
   target: 'C'
