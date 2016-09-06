@@ -54,6 +54,12 @@
   type: 'Transpiler'
   url: 'https://github.com/PiotrDabkowski/Js2Py'
 ,
+  name: 'LLVM C Backend'
+  source: 'LLVM IR'
+  target: 'C'
+  type: 'Transpiler'
+  url: 'https://github.com/JuliaComputing/llvm-cbe'
+,
   name: 'MoonScript Compiler'
   source: 'MoonScript'
   target: 'Lua'
