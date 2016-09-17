@@ -48,6 +48,12 @@
   type: 'Transpiler'
   url: 'https://haxe.org/'
 ,
+  name: 'J2ObjC'
+  source: 'Java'
+  target: 'Objective-C'
+  type: 'Transpiler'
+  url: 'http://j2objc.org/'
+,
   name: 'Js2Py'
   source: 'JavaScript'
   target: 'Python'
