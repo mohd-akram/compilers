@@ -338,7 +338,7 @@
   source: 'Java'
   target: 'Java Bytecode'
   type: 'Intermediate'
-  url: 'https://en.wikipedia.org/wiki/Java_compiler' # Could be improved
+  url: 'http://openjdk.java.net/groups/compiler/'
 ,
   name: 'JRuby'
   source: 'Ruby'
@@ -429,13 +429,13 @@
   source: 'C'
   target: 'Machine Code'
   type: 'Native'
-  url: 'https://software.intel.com/en-us/c-compilers' # Could be improved
+  url: 'https://software.intel.com/en-us/c-compilers'
 ,
   name: 'Intel C++'
   source: 'C++'
   target: 'Machine Code'
   type: 'Native'
-  url: 'https://software.intel.com/en-us/c-compilers' # Could be improved
+  url: 'https://software.intel.com/en-us/c-compilers'
 ,
   name: 'LLVM'
   source: 'LLVM IR'
@@ -453,13 +453,13 @@
   source: 'C'
   target: 'Machine Code'
   type: 'Native'
-  url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools' # Could be improved
+  url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
 ,
   name: 'Visual C++'
   source: 'C++'
   target: 'Machine Code'
   type: 'Native'
-  url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools' # Could be improved
+  url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
 ,
   # JIT compilers
   name: 'CLR'
@@ -484,7 +484,7 @@
   source: 'Java Bytecode'
   target: 'Machine Code'
   type: 'JIT'
-  url: 'https://en.wikipedia.org/wiki/Java_virtual_machine' # Could be improved
+  url: 'https://docs.oracle.com/javase/specs/jvms/se8/html/index.html'
 ,
   name: 'LuaJIT',
   source: 'Lua'
@@ -515,7 +515,7 @@
   source: 'Assembly'
   target: 'Machine Code'
   type: 'Assembler'
-  url: 'https://www.gnu.org/software/binutils/' # Could be improved
+  url: 'https://www.gnu.org/software/binutils/'
 ,
   name: 'MASM'
   source: 'Assembly'
