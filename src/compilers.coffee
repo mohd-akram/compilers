@@ -91,12 +91,6 @@
   url: 'https://github.com/afrog33k/SharpNative'
 ,
   # Compiled to JavaScript
-  name: 'Babel.js React preset'
-  source: 'JSX'
-  target: 'JavaScript'
-  type: 'Transpiler'
-  url: 'http://babeljs.io/docs/plugins/preset-react/'
-,
   name: 'Bridge.NET'
   source: 'C#'
   target: 'JavaScript'
@@ -204,12 +198,6 @@
   target: 'JavaScript'
   type: 'Transpiler'
   url: 'http://www.jsweet.org/'
-,
-  name: 'JSX'
-  source: 'JSX'
-  target: 'JavaScript'
-  type: 'Transpiler'
-  url: 'https://github.com/jsx/JSX'
 ,
   name: 'Kotlin JavaScript Compiler'
   source: 'Kotlin'
