@@ -90,6 +90,12 @@
   type: 'Transpiler'
   url: 'http://nim-lang.org/'
 ,
+  name: 'SharpNative'
+  source: 'C#'
+  target: 'D'
+  type: 'Transpiler'
+  url: 'https://github.com/afrog33k/SharpNative'
+,
   # Compiled to JavaScript
   name: 'Bridge.NET'
   source: 'C#'
@@ -156,6 +162,12 @@
   target: 'JavaScript'
   type: 'Transpiler'
   url: 'https://github.com/ghcjs'
+,
+  name: 'GWT'
+  source: 'Java'
+  target: 'JavaScript'
+  type: 'Transpiler'
+  url: 'http://www.gwtproject.org/'
 ,
   name: 'Haste'
   source: 'Haskell'
