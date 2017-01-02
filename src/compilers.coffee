@@ -266,6 +266,12 @@
   type: 'Intermediate'
   url: 'http://clang.llvm.org/'
 ,
+  name: 'Crystal Compiler'
+  source: 'Crystal'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+  url: 'https://crystal-lang.org/'
+,
   name: 'GHC LLVM'
   source: 'Haskell'
   target: 'LLVM IR'
