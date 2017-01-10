@@ -1,5 +1,11 @@
 @COMPILERS = [
   # Transpilers
+  name: 'Corrode'
+  source: 'C'
+  target: 'Rust'
+  type: 'Transpiler'
+  url: 'https://github.com/jameysharp/corrode'
+,
   name: 'GHC C'
   source: 'Haskell'
   target: 'C'
