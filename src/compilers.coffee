@@ -12,6 +12,12 @@
   type: 'Transpiler'
   url: 'https://www.haskell.org/ghc/'
 ,
+  name: 'Grumpy'
+  source: 'Python'
+  target: 'Go'
+  type: 'Transpiler'
+  url: 'https://github.com/google/grumpy'
+,
   name: 'Haxe ActionScript Compiler'
   source: 'Haxe'
   target: 'ActionScript'
