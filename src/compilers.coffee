@@ -284,6 +284,12 @@
   type: 'Intermediate'
   url: 'https://crystal-lang.org/'
 ,
+  name: 'Flang'
+  source: 'Fortran'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+  url: 'https://github.com/flang-compiler/flang'
+,
   name: 'GHC LLVM'
   source: 'Haskell'
   target: 'LLVM IR'
