@@ -7,8 +7,11 @@
     "lib"
   ],
   "scripts": {
-    "prepare": "coffee -o lib -c src",
-    "test": "mocha --compilers coffee:coffee-script/register"
+    "build": "coffee -o lib -c src",
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "prepare": "npm run build",
+    "version": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,5 @@
 lib/compilers.js: src/compilers.coffee
-	npm run prepare
+	npm run build
 
-.PHONY: test
-test:
+test: lib/compilers.js
 	npm test
