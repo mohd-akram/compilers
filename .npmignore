@@ -2,4 +2,5 @@
 *.tgz
 .git*
 tags
+Makefile
 src/
