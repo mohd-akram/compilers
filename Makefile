@@ -1,5 +1,5 @@
-all: src/compilers.coffee
-	node_modules/.bin/coffee -o lib -c src
+lib/compilers.js: src/compilers.coffee
+	npm run prepare
 
 .PHONY: test
 test:

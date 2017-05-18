@@ -1,6 +1,0 @@
-.npmignore
-*.tgz
-.git*
-tags
-Makefile
-src/
