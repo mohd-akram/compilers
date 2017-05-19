@@ -5,7 +5,7 @@ indent = require 'indent-string'
 describe 'COMPILERS', ->
   COMPILERS = null
 
-  before -> { COMPILERS } = require '..'
+  before -> { COMPILERS } = require '../src/compilers'
 
   it 'should be a valid list', ->
     ajv = new Ajv verbose: true
