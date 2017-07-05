@@ -7,7 +7,7 @@ describe 'COMPILERS', ->
 
   before -> { COMPILERS } = require '../src/compilers'
 
-  it 'should be a valid list', ->
+  it 'should be valid', ->
     ajv = new Ajv verbose: true
 
     valid = ajv.validate
@@ -31,3 +31,12 @@ describe 'COMPILERS', ->
 
     assert.ok valid, ajv.errors?.map (error) ->
       "#{error.message}\n\n#{indent (JSON.stringify error.data, null, 2), 6}\n"
+
+  it 'should be sorted', ->
+    compilers = COMPILERS.slice().sort (a, b) ->
+      [aType, bType] = [a.type.toLowerCase(), b.type.toLowerCase()]
+      [aName, bName] = [a.name.toLowerCase(), b.name.toLowerCase()]
+      if aType is bType then (if aName < bName then -1 else 1)
+      else if aType < bType then -1 else 1
+
+    assert.deepEqual COMPILERS, compilers
