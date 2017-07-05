@@ -36,6 +36,12 @@
   type: 'Transpiler'
   url: 'https://haxe.org/'
 ,
+  name: 'Haxe HashLink Compiler'
+  source: 'Haxe'
+  target: 'C'
+  type: 'Transpiler'
+  url: 'https://haxe.org/'
+,
   name: 'Haxe Java Compiler'
   source: 'Haxe'
   target: 'Java'
