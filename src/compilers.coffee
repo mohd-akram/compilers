@@ -60,6 +60,12 @@
   type: 'Transpiler'
   url: 'https://haxe.org/'
 ,
+  name: 'Haxe HashLink Compiler'
+  source: 'Haxe'
+  target: 'C'
+  type: 'Transpiler'
+  url: 'https://haxe.org/'
+,
   name: 'J2ObjC'
   source: 'Java'
   target: 'Objective-C'
