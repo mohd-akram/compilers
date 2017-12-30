@@ -544,6 +544,12 @@
   type: 'Transpiler'
   url: 'http://opalrb.org/'
 ,
+  name: 'Pythran'
+  source: 'Python'
+  target: 'C++'
+  type: 'Transpiler'
+  url: 'https://github.com/serge-sans-paille/pythran'
+,
   name: 'Scala.js'
   source: 'Scala'
   target: 'JavaScript'
