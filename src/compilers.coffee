@@ -31,6 +31,12 @@
   url: 'http://yasm.tortall.net/'
 ,
   # Intermediate
+  name: 'Asmble'
+  source: 'WebAssembly'
+  target: 'Java Bytecode'
+  type: 'Intermediate'
+  url: 'https://github.com/cretz/asmble/'
+,
   name: 'Ceylon Compiler'
   source: 'Ceylon'
   target: 'Java Bytecode'
