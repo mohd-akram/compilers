@@ -370,6 +370,12 @@
   type: 'Transpiler'
   url: 'https://webdev.dartlang.org/tools/dart2js'
 ,
+  name: 'Dragome'
+  source: 'Java Bytecode'
+  target: 'JavaScript'
+  type: 'Transpiler'
+  url: 'http://www.dragome.com'
+,
   name: 'Elm Compiler'
   source: 'Elm'
   target: 'JavaScript'
