@@ -322,6 +322,12 @@
   url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
 ,
   # Transpiler
+  name: 'Bck2Brwsr'
+  source: 'Java Bytecode'
+  target: 'JavaScript'
+  type: 'Transpiler'
+  url: 'http://wiki.apidesign.org/wiki/Bck2Brwsr'
+,
   name: 'Bridge.NET'
   source: 'C#'
   target: 'JavaScript'
