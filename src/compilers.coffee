@@ -604,4 +604,10 @@
   type: 'Transpiler'
   url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
 ,
+  name: 'VOC'
+  source: 'Python'
+  target: 'Java'
+  type: 'Transpiler'
+  url: 'http://pybee.org/voc'
+,
 ]
