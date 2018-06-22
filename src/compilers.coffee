@@ -183,7 +183,7 @@
 ,
   name: 'VOC'
   source: 'Python'
-  target: 'Java'
+  target: 'Java Bytecode'
   type: 'Intermediate'
   url: 'https://pybee.org/voc'
 ,
