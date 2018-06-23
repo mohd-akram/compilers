@@ -181,6 +181,12 @@
   type: 'Intermediate'
   url: 'https://github.com/Microsoft/visualfsharp'
 ,
+  name: 'VOC'
+  source: 'Python'
+  target: 'Java Bytecode'
+  type: 'Intermediate'
+  url: 'https://pybee.org/voc'
+,
   # JIT
   name: 'CLR'
   source: 'CIL'
