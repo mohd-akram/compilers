@@ -327,6 +327,12 @@
   type: 'Native'
   url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
 ,
+  name: 'Scala Natvie'
+  source: 'Scala'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'http://www.scala-native.org/en/latest/'
+,
   # Transpiler
   name: 'Bck2Brwsr'
   source: 'Java Bytecode'
