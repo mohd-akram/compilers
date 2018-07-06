@@ -538,6 +538,12 @@
   type: 'Transpiler'
   url: 'http://moonscript.org/'
 ,
+  name: 'MRI'
+  source: 'Ruby'
+  target: 'C'
+  type: 'Transpiler'
+  url: 'http://www.ruby-lang.org/'
+,
   name: 'Nim C Compiler'
   source: 'Nim'
   target: 'C'
@@ -574,6 +580,12 @@
   type: 'Transpiler'
   url: 'https://github.com/serge-sans-paille/pythran'
 ,
+  name: 'Rubinius'
+  source: 'Ruby'
+  target: 'C++'
+  type: 'Transpiler'
+  url: 'http://rubini.us/'
+,
   name: 'Scala.js'
   source: 'Scala'
   target: 'JavaScript'
@@ -609,17 +621,5 @@
   target: 'JavaScript'
   type: 'Transpiler'
   url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
-,
-  name: 'MRI'
-  source: 'Ruby'
-  target: 'C'
-  type: 'Transpiler'
-  url: 'http://www.ruby-lang.org/'
-,
-  name: 'Rubinius'
-  source: 'Ruby'
-  target: 'C++'
-  type: 'Transpiler'
-  url: 'http://rubini.us/'
 ,
 ]
