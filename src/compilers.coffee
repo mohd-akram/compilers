@@ -31,6 +31,12 @@
   url: 'http://yasm.tortall.net/'
 ,
   # Intermediate
+  name: 'ABCL'
+  source: 'Common Lisp'
+  target: 'Java Bytecode'
+  type: 'Intermediate'
+  url: 'https://abcl.org/'
+,
   name: 'Asmble'
   source: 'WebAssembly'
   target: 'Java Bytecode'
@@ -61,6 +67,12 @@
   type: 'Intermediate'
   url: 'http://clang.llvm.org/'
 ,
+  name: 'Clasp'
+  source: 'Common Lisp'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+  url: 'https://github.com/clasp-developers/clasp'
+,
   name: 'Clojure Compiler'
   source: 'Clojure'
   target: 'Java Bytecode'
@@ -72,6 +84,12 @@
   target: 'LLVM IR'
   type: 'Intermediate'
   url: 'https://crystal-lang.org/'
+,
+  name: 'ECL'
+  source: 'Common Lisp'
+  target: 'C'
+  type: 'Intermediate'
+  url: 'https://common-lisp.net/project/ecl/'
 ,
   name: 'Flang'
   source: 'Fortran'
@@ -187,24 +205,6 @@
   type: 'Intermediate'
   url: 'https://pybee.org/voc'
 ,
-  name: 'ECL'
-  source: 'Common Lisp'
-  target: 'C'
-  type: 'Intermediate'
-  url: 'https://common-lisp.net/project/ecl/'
-,
-  name: 'ABCL'
-  source: 'Common Lisp'
-  target: 'Java Bytecode'
-  type: 'Intermediate'
-  url: 'https://abcl.org/'
-,
-  name: 'Clasp'
-  source: 'Common Lisp'
-  target: 'LLVM IR'
-  type: 'Intermediate'
-  url: 'https://github.com/clasp-developers/clasp'
-,
   # JIT
   name: 'CLR'
   source: 'CIL'
@@ -249,6 +249,12 @@
   url: 'https://developers.google.com/v8/'
 ,
   # Native
+  name: 'Allegro CL'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'https://franz.com/products/allegro-common-lisp/'
+,
   name: 'DMD'
   source: 'D'
   target: 'Machine Code'
@@ -315,6 +321,12 @@
   type: 'Native'
   url: 'https://software.intel.com/en-us/c-compilers'
 ,
+  name: 'Lispworks'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'http://www.lispworks.com/'
+,
   name: 'LLVM'
   source: 'LLVM IR'
   target: 'Machine Code'
@@ -345,7 +357,7 @@
   type: 'Native'
   url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
 ,
-  # Common Lisp 
+  # Common Lisp
   name: 'SBCL'
   source: 'Common Lisp'
   target: 'Machine Code'
@@ -357,18 +369,6 @@
   target: 'Machine Code'
   type: 'Native'
   url: 'http://ccl.clozure.com/'
-,
-  name: 'Lispworks'
-  source: 'Common Lisp'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'http://www.lispworks.com/'
-,
-  name: 'Allegro CL'
-  source: 'Common Lisp'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'https://franz.com/products/allegro-common-lisp/'
 ,
   # Transpiler
   name: 'Bck2Brwsr'
@@ -539,6 +539,12 @@
   type: 'Transpiler'
   url: 'https://haxe.org/'
 ,
+  name: 'Iota'
+  source: 'LLVM IR'
+  target: 'Common Lisp'
+  type: 'Transpiler'
+  url: 'http://github.com/froggey/Iota'
+,
   name: 'J2ObjC'
   source: 'Java'
   target: 'Objective-C'
@@ -652,11 +658,5 @@
   target: 'JavaScript'
   type: 'Transpiler'
   url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
-,
-  name: 'Iota'
-  source: 'LLVM IR'
-  target: 'Common Lisp'
-  type: 'Transpiler'
-  url: 'http://github.com/froggey/Iota'
 ,
 ]
