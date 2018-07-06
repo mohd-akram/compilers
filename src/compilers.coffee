@@ -127,6 +127,12 @@
   type: 'Intermediate'
   url: 'https://kotlinlang.org/'
 ,
+  name: 'Kotlin/Native'
+  source: 'Kotlin'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+  url: 'https://kotlinlang.org/docs/reference/native-overview.html'
+,
   name: 'LDC'
   source: 'D'
   target: 'LLVM IR'
