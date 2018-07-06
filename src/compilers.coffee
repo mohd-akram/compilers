@@ -187,6 +187,24 @@
   type: 'Intermediate'
   url: 'https://pybee.org/voc'
 ,
+  name: 'ECL'
+  source: 'Common Lisp'
+  target: 'C'
+  type: 'Intermediate'
+  url: 'https://common-lisp.net/project/ecl/'
+,
+  name: 'ABCL'
+  source: 'Common Lisp'
+  target: 'Java Bytecode'
+  type: 'Intermediate'
+  url: 'https://abcl.org/'
+,
+  name: 'Clasp'
+  source: 'Common Lisp'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+  url: 'https://github.com/clasp-developers/clasp'
+,
   # JIT
   name: 'CLR'
   source: 'CIL'
@@ -326,6 +344,31 @@
   target: 'Machine Code'
   type: 'Native'
   url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
+,
+  # Common Lisp 
+  name: 'SBCL'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'http://sbcl.org'
+,
+  name: 'CCL'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'http://ccl.clozure.com/'
+,
+  name: 'Lispworks'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'http://www.lispworks.com/'
+,
+  name: 'Allegro CL'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'https://franz.com/products/allegro-common-lisp/'
 ,
   # Transpiler
   name: 'Bck2Brwsr'
@@ -609,5 +652,11 @@
   target: 'JavaScript'
   type: 'Transpiler'
   url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
+,
+  name: 'Iota'
+  source: 'LLVM IR'
+  target: 'Common Lisp'
+  type: 'Transpiler'
+  url: 'http://github.com/froggey/Iota'
 ,
 ]
