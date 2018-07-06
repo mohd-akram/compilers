@@ -610,4 +610,16 @@
   type: 'Transpiler'
   url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
 ,
+  name: 'MRI'
+  source: 'Ruby'
+  target: 'C'
+  type: 'Transpiler'
+  url: 'http://www.ruby-lang.org/'
+,
+  name: 'Rubinius'
+  source: 'Ruby'
+  target: 'C++'
+  type: 'Transpiler'
+  url: 'http://rubini.us/'
+,
 ]
