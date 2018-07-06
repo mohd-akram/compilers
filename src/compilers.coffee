@@ -85,6 +85,13 @@
   type: 'Intermediate'
   url: 'https://www.haskell.org/ghc/'
 ,
+
+  name: 'Scala Natvie'
+  source: 'Scala'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+  url: 'http://www.scala-native.org/en/latest/'
+ ,
   name: 'Groovy Compiler'
   source: 'Groovy'
   target: 'Java Bytecode'
@@ -326,12 +333,6 @@
   target: 'Machine Code'
   type: 'Native'
   url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
-,
-  name: 'Scala Natvie'
-  source: 'Scala'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'http://www.scala-native.org/en/latest/'
 ,
   # Transpiler
   name: 'Bck2Brwsr'
