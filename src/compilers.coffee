@@ -255,6 +255,12 @@
   type: 'Native'
   url: 'https://franz.com/products/allegro-common-lisp/'
 ,
+  name: 'CCL'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'http://ccl.clozure.com/'
+,
   name: 'DMD'
   source: 'D'
   target: 'Machine Code'
@@ -339,6 +345,12 @@
   type: 'Native'
   url: 'https://ocaml.org/'
 ,
+  name: 'SBCL'
+  source: 'Common Lisp'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'http://sbcl.org'
+,
   name: 'UHC'
   source: 'Haskell'
   target: 'Machine Code'
@@ -356,19 +368,6 @@
   target: 'Machine Code'
   type: 'Native'
   url: 'http://landinghub.visualstudio.com/visual-cpp-build-tools'
-,
-  # Common Lisp
-  name: 'SBCL'
-  source: 'Common Lisp'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'http://sbcl.org'
-,
-  name: 'CCL'
-  source: 'Common Lisp'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'http://ccl.clozure.com/'
 ,
   # Transpiler
   name: 'Bck2Brwsr'
