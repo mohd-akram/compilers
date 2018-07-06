@@ -193,6 +193,12 @@
   type: 'Intermediate'
   url: 'https://github.com/dotnet/llilc'
 ,
+  name: 'LLVM WebAssembly Backend'
+  source: 'LLVM IR'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'http://llvm.org/'
+,
   name: 'NLVM'
   source: 'Nim'
   target: 'LLVM IR'
