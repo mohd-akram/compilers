@@ -574,6 +574,12 @@
   type: 'Transpiler'
   url: 'https://github.com/serge-sans-paille/pythran'
 ,
+  name: 'Rubinius'
+  source: 'Ruby'
+  target: 'Machine Code'
+  type: 'JIT'
+  url: 'https://github.com/rubinius/rubinius'
+,
   name: 'Scala.js'
   source: 'Scala'
   target: 'JavaScript'
