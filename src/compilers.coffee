@@ -512,7 +512,7 @@
   source: 'OCaml'
   target: 'JavaScript'
   type: 'Transpiler'
-  url: 'http://ocsigen.org/js_of_ocaml/'
+  url: 'https://ocsigen.org/js_of_ocaml/'
 ,
   name: 'JSIL'
   source: 'CIL'
