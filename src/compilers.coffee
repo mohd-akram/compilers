@@ -217,6 +217,12 @@
   type: 'Intermediate'
   url: 'https://swift.org/'
 ,
+  name: 'TclQuadcode'
+  source: 'Tcl'
+  target: 'LLVM IR'
+  type: 'Intermediate'
+  url: 'https://core.tcl.tk/tclquadcode'
+,
   name: 'Visual F#'
   source: 'F#'
   target: 'CIL'
