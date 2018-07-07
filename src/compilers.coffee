@@ -224,6 +224,12 @@
   type: 'JIT'
   url: 'http://pypy.org/'
 ,
+  name: 'Rubinius'
+  source: 'Ruby'
+  target: 'Machine Code'
+  type: 'JIT'
+  url: 'https://github.com/rubinius/rubinius'
+,
   name: 'V8'
   source: 'JavaScript'
   target: 'Machine Code'
@@ -573,12 +579,6 @@
   target: 'C++'
   type: 'Transpiler'
   url: 'https://github.com/serge-sans-paille/pythran'
-,
-  name: 'Rubinius'
-  source: 'Ruby'
-  target: 'Machine Code'
-  type: 'JIT'
-  url: 'https://github.com/rubinius/rubinius'
 ,
   name: 'Scala.js'
   source: 'Scala'
