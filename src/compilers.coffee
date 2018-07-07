@@ -84,7 +84,7 @@
   target: 'LLVM IR'
   type: 'Intermediate'
   url: 'https://www.haskell.org/ghc/'
- ,
+,
   name: 'Groovy Compiler'
   source: 'Groovy'
   target: 'Java Bytecode'
@@ -169,11 +169,11 @@
   type: 'Intermediate'
   url: 'http://www.scala-lang.org/'
 ,
-  name: 'Scala Natvie'
+  name: 'Scala Native'
   source: 'Scala'
   target: 'LLVM IR'
   type: 'Intermediate'
-  url: 'http://www.scala-native.org/en/latest/'
+  url: 'http://www.scala-native.org/'
 ,
   name: 'Swift Compiler'
   source: 'Swift'
