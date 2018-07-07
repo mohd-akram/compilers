@@ -85,12 +85,6 @@
   type: 'Intermediate'
   url: 'https://crystal-lang.org/'
 ,
-  name: 'ECL'
-  source: 'Common Lisp'
-  target: 'C'
-  type: 'Intermediate'
-  url: 'https://common-lisp.net/project/ecl/'
-,
   name: 'Flang'
   source: 'Fortran'
   target: 'LLVM IR'
@@ -255,11 +249,11 @@
   type: 'Native'
   url: 'https://franz.com/products/allegro-common-lisp/'
 ,
-  name: 'CCL'
+  name: 'Clozure CL'
   source: 'Common Lisp'
   target: 'Machine Code'
   type: 'Native'
-  url: 'http://ccl.clozure.com/'
+  url: 'https://ccl.clozure.com/'
 ,
   name: 'DMD'
   source: 'D'
@@ -327,7 +321,7 @@
   type: 'Native'
   url: 'https://software.intel.com/en-us/c-compilers'
 ,
-  name: 'Lispworks'
+  name: 'LispWorks'
   source: 'Common Lisp'
   target: 'Machine Code'
   type: 'Native'
@@ -429,6 +423,12 @@
   target: 'JavaScript'
   type: 'Transpiler'
   url: 'http://www.dragome.com'
+,
+  name: 'ECL'
+  source: 'Common Lisp'
+  target: 'C'
+  type: 'Transpiler'
+  url: 'https://common-lisp.net/project/ecl/'
 ,
   name: 'Elm Compiler'
   source: 'Elm'
@@ -542,7 +542,7 @@
   source: 'LLVM IR'
   target: 'Common Lisp'
   type: 'Transpiler'
-  url: 'http://github.com/froggey/Iota'
+  url: 'https://github.com/froggey/Iota'
 ,
   name: 'J2ObjC'
   source: 'Java'
