@@ -400,6 +400,18 @@
   type: 'Transpiler'
   url: 'http://emscripten.org'
 ,
+  name: 'Emscripten'
+  source: 'LLVM IR'
+  target: 'WebAssembly'
+  type: 'Transpiler'
+  url: 'http://emscripten.org'
+,
+  name: 'Go Compiler'
+  source: 'Go'
+  target: 'WebAssembly'
+  type: 'Transpiler'
+  url: 'https://golang.org'
+,
   name: 'Fable'
   source: 'F#'
   target: 'JavaScript'
