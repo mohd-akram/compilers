@@ -169,6 +169,12 @@
   type: 'Intermediate'
   url: 'https://github.com/dotnet/llilc'
 ,
+  name: 'NLVM',
+  source: 'Nim',
+  target: 'LLVM IR',
+  type: 'Intermediate',
+  url: 'https://github.com/arnetheduck/nlvm'
+,
   name: 'Phalanger'
   source: 'PHP'
   target: 'CIL'
