@@ -175,11 +175,11 @@
   type: 'Intermediate',
   url: 'https://github.com/arnetheduck/nlvm'
 ,
-  name: 'Phalanger'
+  name: 'PeachPie'
   source: 'PHP'
   target: 'CIL'
   type: 'Intermediate'
-  url: 'https://phalanger.codeplex.com/'
+  url: 'https://www.peachpie.io/'
 ,
   name: 'Roslyn C#'
   source: 'C#'
