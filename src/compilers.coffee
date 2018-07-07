@@ -79,6 +79,24 @@
   type: 'Intermediate'
   url: 'https://github.com/flang-compiler/flang'
 ,
+  name: 'G++'
+  source: 'C++'
+  target: 'Assembly'
+  type: 'Intermediate'
+  url: 'https://gcc.gnu.org/'
+,
+  name: 'GCC'
+  source: 'C'
+  target: 'Assembly'
+  type: 'Intermediate'
+  url: 'https://gcc.gnu.org/'
+,
+  name: 'GFortran'
+  source: 'Fortran'
+  target: 'Assembly'
+  type: 'Intermediate'
+  url: 'https://gcc.gnu.org/fortran/'
+,
   name: 'GHC LLVM'
   source: 'Haskell'
   target: 'LLVM IR'
@@ -260,24 +278,6 @@
   target: 'Machine Code'
   type: 'Native'
   url: 'http://www.freebasic.net/'
-,
-  name: 'G++'
-  source: 'C++'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'https://gcc.gnu.org/'
-,
-  name: 'GCC'
-  source: 'C'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'https://gcc.gnu.org/'
-,
-  name: 'GFortran'
-  source: 'Fortran'
-  target: 'Machine Code'
-  type: 'Native'
-  url: 'https://gcc.gnu.org/fortran/'
 ,
   name: 'GHC'
   source: 'Haskell'
