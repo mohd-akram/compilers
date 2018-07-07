@@ -508,6 +508,12 @@
   type: 'Transpiler'
   url: 'https://github.com/PiotrDabkowski/Js2Py'
 ,
+  name: 'Js_of_ocaml'
+  source: 'OCaml'
+  target: 'JavaScript'
+  type: 'Transpiler'
+  url: 'https://ocsigen.org/js_of_ocaml/'
+,
   name: 'JSIL'
   source: 'CIL'
   target: 'JavaScript'
