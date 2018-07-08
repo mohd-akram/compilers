@@ -266,6 +266,12 @@
   type: 'JIT'
   url: 'http://luajit.org/'
 ,
+  name: 'MoarVM',
+  source: 'Perl 6',
+  target: 'Machine Code',
+  type: 'JIT',
+  url: 'https://www.moarvm.org'
+,
   name: 'PyPy'
   source: 'Python'
   target: 'Machine Code'
