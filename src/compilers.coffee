@@ -85,6 +85,12 @@
   type: 'Intermediate'
   url: 'https://crystal-lang.org/'
 ,
+  name: 'Cython'
+  source: 'Python'
+  target: 'C'
+  type: 'Intermediate'
+  url: 'http://cython.org/'
+,
   name: 'Flang'
   source: 'Fortran'
   target: 'LLVM IR'
