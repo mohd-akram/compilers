@@ -73,6 +73,12 @@
   type: 'Intermediate'
   url: 'https://github.com/clasp-developers/clasp'
 ,
+  name: 'Clojure CLR'
+  source: 'Clojure'
+  target: 'CIL'
+  type: 'Intermediate'
+  url: 'https://github.com/clojure/clojure-clr'
+,
   name: 'Clojure Compiler'
   source: 'Clojure'
   target: 'Java Bytecode'
@@ -180,6 +186,12 @@
   target: 'CIL'
   type: 'Intermediate'
   url: 'https://www.peachpie.io/'
+,
+  name: 'Rembulan'
+  source: 'Lua'
+  target: 'Java Bytecode'
+  type: 'Intermediate'
+  url: 'https://github.com/mjanicek/rembulan'
 ,
   name: 'Roslyn C#'
   source: 'C#'
