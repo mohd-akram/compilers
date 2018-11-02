@@ -145,7 +145,7 @@
   type: 'Intermediate'
   url: 'http://jruby.org/'
 ,
-  name: 'Julia Compiler',
+  name: 'Julia Compiler'
   source: 'Julia'
   target: 'LLVM IR'
   type: 'Intermediate'
@@ -175,10 +175,10 @@
   type: 'Intermediate'
   url: 'https://github.com/dotnet/llilc'
 ,
-  name: 'NLVM',
-  source: 'Nim',
-  target: 'LLVM IR',
-  type: 'Intermediate',
+  name: 'NLVM'
+  source: 'Nim'
+  target: 'LLVM IR'
+  type: 'Intermediate'
   url: 'https://github.com/arnetheduck/nlvm'
 ,
   name: 'PeachPie'
@@ -254,34 +254,34 @@
   type: 'JIT'
   url: 'https://msdn.microsoft.com/en-us/library/k8d11d4s.aspx'
 ,
-  name: 'HHVM Hack',
+  name: 'HHVM Hack'
   source: 'Hack'
   target: 'Machine Code'
   type: 'JIT'
   url: 'http://hhvm.com/'
 ,
-  name: 'HHVM PHP',
+  name: 'HHVM PHP'
   source: 'PHP'
   target: 'Machine Code'
   type: 'JIT'
   url: 'http://hhvm.com/'
 ,
-  name: 'JVM',
+  name: 'JVM'
   source: 'Java Bytecode'
   target: 'Machine Code'
   type: 'JIT'
   url: 'https://docs.oracle.com/javase/specs/jvms/se8/html/index.html'
 ,
-  name: 'LuaJIT',
+  name: 'LuaJIT'
   source: 'Lua'
   target: 'Machine Code'
   type: 'JIT'
   url: 'http://luajit.org/'
 ,
-  name: 'MoarVM',
-  source: 'Perl 6',
-  target: 'Machine Code',
-  type: 'JIT',
+  name: 'MoarVM'
+  source: 'Perl 6'
+  target: 'Machine Code'
+  type: 'JIT'
   url: 'https://www.moarvm.org'
 ,
   name: 'PyPy'
@@ -706,10 +706,10 @@
   type: 'Transpiler'
   url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
 ,
-  name: 'Vala Compiler',
-  source: 'Vala',
-  target: 'C',
-  type: 'Transpiler',
+  name: 'Vala Compiler'
+  source: 'Vala'
+  target: 'C'
+  type: 'Transpiler'
   url: 'https://wiki.gnome.org/Projects/Vala'
 ,
 ]
