@@ -664,6 +664,12 @@
   type: 'Transpiler'
   url: 'http://opalrb.org/'
 ,
+  name: 'Py2Jl'
+  source: 'Python'
+  target: 'Julia'
+  type: 'Transpiler'
+  url: 'https://github.com/JuliaCN/Py2Jl.jl'
+,
   name: 'Pythran'
   source: 'Python'
   target: 'C++'
