@@ -393,6 +393,12 @@
   type: 'Native'
   url: 'http://llvm.org/'
 ,
+  name: 'Lucet'
+  source: 'WebAssembly'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'https://github.com/fastly/lucet'
+,
   name: 'OCaml Compiler'
   source: 'OCaml'
   target: 'Machine Code'
