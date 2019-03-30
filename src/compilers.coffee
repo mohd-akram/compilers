@@ -73,6 +73,12 @@
   type: 'Intermediate'
   url: 'https://crystal-lang.org/'
 ,
+  name: 'Emscripten WebAssembly Compiler'
+  source: 'LLVM IR'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'https://emscripten.org'
+,
   name: 'Flang'
   source: 'Fortran'
   target: 'LLVM IR'
@@ -84,6 +90,12 @@
   target: 'LLVM IR'
   type: 'Intermediate'
   url: 'https://www.haskell.org/ghc/'
+,
+  name: 'Go WebAssembly Compiler'
+  source: 'Go'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'https://golang.org'
 ,
   name: 'Groovy Compiler'
   source: 'Groovy'
@@ -399,18 +411,6 @@
   target: 'JavaScript'
   type: 'Transpiler'
   url: 'http://emscripten.org'
-,
-  name: 'Emscripten'
-  source: 'LLVM IR'
-  target: 'WebAssembly'
-  type: 'Transpiler'
-  url: 'http://emscripten.org'
-,
-  name: 'Go Compiler'
-  source: 'Go'
-  target: 'WebAssembly'
-  type: 'Transpiler'
-  url: 'https://golang.org'
 ,
   name: 'Fable'
   source: 'F#'
