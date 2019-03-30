@@ -43,6 +43,12 @@
   type: 'Intermediate'
   url: 'https://github.com/cretz/asmble/'
 ,
+  name: 'AssemblyScript'
+  source: 'TypeScript'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'https://github.com/AssemblyScript/assemblyscript'
+,
   name: 'Ceylon Compiler'
   source: 'Ceylon'
   target: 'Java Bytecode'
