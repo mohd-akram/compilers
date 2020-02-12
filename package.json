@@ -27,9 +27,9 @@
   },
   "homepage": "https://github.com/mohd-akram/compilers#readme",
   "devDependencies": {
-    "ajv": "^6.5.4",
-    "coffeescript": "^2.3.2",
-    "indent-string": "^3.2.0",
-    "mocha": "^5.2.0"
+    "ajv": "^6.11.0",
+    "coffeescript": "^2.5.1",
+    "indent-string": "^4.0.0",
+    "mocha": "^7.0.1"
   }
 }
