@@ -303,7 +303,7 @@
   url: 'http://luajit.org/'
 ,
   name: 'MoarVM'
-  source: 'Perl 6'
+  source: 'Raku'
   target: 'Machine Code'
   type: 'JIT'
   url: 'https://www.moarvm.org'
