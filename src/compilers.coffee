@@ -43,6 +43,12 @@
   type: 'Intermediate'
   url: 'https://github.com/cretz/asmble/'
 ,
+  name: 'AssemblyScript'
+  source: 'TypeScript'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'https://github.com/AssemblyScript/assemblyscript'
+,
   name: 'Ceylon Compiler'
   source: 'Ceylon'
   target: 'Java Bytecode'
@@ -73,6 +79,12 @@
   type: 'Intermediate'
   url: 'https://github.com/clasp-developers/clasp'
 ,
+  name: 'Clojure CLR'
+  source: 'Clojure'
+  target: 'CIL'
+  type: 'Intermediate'
+  url: 'https://github.com/clojure/clojure-clr'
+,
   name: 'Clojure Compiler'
   source: 'Clojure'
   target: 'Java Bytecode'
@@ -84,6 +96,12 @@
   target: 'LLVM IR'
   type: 'Intermediate'
   url: 'https://crystal-lang.org/'
+,
+  name: 'Emscripten WebAssembly Compiler'
+  source: 'LLVM IR'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'https://emscripten.org'
 ,
   name: 'Eta Compiler',
   source: 'Haskell',
@@ -121,6 +139,12 @@
   type: 'Intermediate'
   url: 'https://www.haskell.org/ghc/'
 ,
+  name: 'Go WebAssembly Compiler'
+  source: 'Go'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'https://golang.org'
+,
   name: 'Groovy Compiler'
   source: 'Groovy'
   target: 'Java Bytecode'
@@ -145,7 +169,7 @@
   type: 'Intermediate'
   url: 'http://jruby.org/'
 ,
-  name: 'Julia Compiler',
+  name: 'Julia Compiler'
   source: 'Julia'
   target: 'LLVM IR'
   type: 'Intermediate'
@@ -175,10 +199,16 @@
   type: 'Intermediate'
   url: 'https://github.com/dotnet/llilc'
 ,
-  name: 'NLVM',
-  source: 'Nim',
-  target: 'LLVM IR',
-  type: 'Intermediate',
+  name: 'LLVM WebAssembly Backend'
+  source: 'LLVM IR'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'http://llvm.org/'
+,
+  name: 'NLVM'
+  source: 'Nim'
+  target: 'LLVM IR'
+  type: 'Intermediate'
   url: 'https://github.com/arnetheduck/nlvm'
 ,
   name: 'PeachPie'
@@ -186,6 +216,12 @@
   target: 'CIL'
   type: 'Intermediate'
   url: 'https://www.peachpie.io/'
+,
+  name: 'Rembulan'
+  source: 'Lua'
+  target: 'Java Bytecode'
+  type: 'Intermediate'
+  url: 'https://github.com/mjanicek/rembulan'
 ,
   name: 'Roslyn C#'
   source: 'C#'
@@ -248,34 +284,34 @@
   type: 'JIT'
   url: 'https://msdn.microsoft.com/en-us/library/k8d11d4s.aspx'
 ,
-  name: 'HHVM Hack',
+  name: 'HHVM Hack'
   source: 'Hack'
   target: 'Machine Code'
   type: 'JIT'
   url: 'http://hhvm.com/'
 ,
-  name: 'HHVM PHP',
+  name: 'HHVM PHP'
   source: 'PHP'
   target: 'Machine Code'
   type: 'JIT'
   url: 'http://hhvm.com/'
 ,
-  name: 'JVM',
+  name: 'JVM'
   source: 'Java Bytecode'
   target: 'Machine Code'
   type: 'JIT'
   url: 'https://docs.oracle.com/javase/specs/jvms/se8/html/index.html'
 ,
-  name: 'LuaJIT',
+  name: 'LuaJIT'
   source: 'Lua'
   target: 'Machine Code'
   type: 'JIT'
   url: 'http://luajit.org/'
 ,
-  name: 'MoarVM',
-  source: 'Perl 6',
-  target: 'Machine Code',
-  type: 'JIT',
+  name: 'MoarVM'
+  source: 'Raku'
+  target: 'Machine Code'
+  type: 'JIT'
   url: 'https://www.moarvm.org'
 ,
   name: 'PyPy'
@@ -368,6 +404,12 @@
   target: 'Machine Code'
   type: 'Native'
   url: 'http://llvm.org/'
+,
+  name: 'Lucet'
+  source: 'WebAssembly'
+  target: 'Machine Code'
+  type: 'Native'
+  url: 'https://github.com/fastly/lucet'
 ,
   name: 'OCaml Compiler'
   source: 'OCaml'
@@ -658,6 +700,12 @@
   type: 'Transpiler'
   url: 'http://opalrb.org/'
 ,
+  name: 'Py2Jl'
+  source: 'Python'
+  target: 'Julia'
+  type: 'Transpiler'
+  url: 'https://github.com/JuliaCN/Py2Jl.jl'
+,
   name: 'Pythran'
   source: 'Python'
   target: 'C++'
@@ -700,10 +748,10 @@
   type: 'Transpiler'
   url: 'http://foswiki.cs.uu.nl/foswiki/UHC'
 ,
-  name: 'Vala Compiler',
-  source: 'Vala',
-  target: 'C',
-  type: 'Transpiler',
+  name: 'Vala Compiler'
+  source: 'Vala'
+  target: 'C'
+  type: 'Transpiler'
   url: 'https://wiki.gnome.org/Projects/Vala'
 ,
 ]
