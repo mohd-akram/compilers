@@ -235,6 +235,12 @@
   type: 'Intermediate'
   url: 'https://www.rust-lang.org/'
 ,
+  name: 'Rust Compiler WebAssembly Target'
+  source: 'Rust'
+  target: 'WebAssembly'
+  type: 'Intermediate'
+  url: 'https://www.rust-lang.org/what/wasm'
+,
   name: 'Scala Compiler'
   source: 'Scala'
   target: 'Java Bytecode'
