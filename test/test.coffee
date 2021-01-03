@@ -1,5 +1,6 @@
 assert = require 'assert'
-Ajv = require 'ajv'
+Ajv = (require 'ajv').default
+addFormats = require 'ajv-formats'
 indent = require 'indent-string'
 
 describe 'COMPILERS', ->
@@ -9,6 +10,7 @@ describe 'COMPILERS', ->
 
   it 'should be valid', ->
     ajv = new Ajv verbose: true
+    addFormats ajv
 
     valid = ajv.validate
       type: 'array'
@@ -25,7 +27,7 @@ describe 'COMPILERS', ->
             type: 'string'
           url:
             type: 'string'
-            format: 'url'
+            format: 'uri'
         required: ['name', 'source', 'target', 'type', 'url']
       , COMPILERS
 
