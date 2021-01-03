@@ -103,6 +103,12 @@
   type: 'Intermediate'
   url: 'https://emscripten.org'
 ,
+  name: 'Eta Compiler',
+  source: 'Haskell',
+  target: 'Java Bytecode',
+  type: 'Intermediate',
+  url: 'https://eta-lang.org/'
+,
   name: 'Flang'
   source: 'Fortran'
   target: 'LLVM IR'
