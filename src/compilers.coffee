@@ -676,6 +676,12 @@
   type: 'Transpiler'
   url: 'http://moonscript.org/'
 ,
+  name: 'Mutabah\'s Rust Compiler'
+  source: 'rust'
+  target: 'C'
+  type: 'Transpiler'
+  url: 'https://github.com/thepowersgang/mrustc'
+,
   name: 'Nim C Compiler'
   source: 'Nim'
   target: 'C'
