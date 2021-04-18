@@ -478,6 +478,12 @@
   type: 'Transpiler'
   url: 'http://bloomberg.github.io/bucklescript/'
 ,
+  name: 'C2Rust'
+  source: 'C'
+  target: 'Rust'
+  type: 'Transpiler'
+  url: 'https://c2rust.com/'
+,
   name: 'Ceylon JavaScript Compiler'
   source: 'Ceylon'
   target: 'JavaScript'
