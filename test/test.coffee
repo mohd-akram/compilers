@@ -1,7 +1,8 @@
 assert = require 'assert'
 Ajv = (require 'ajv').default
 addFormats = require 'ajv-formats'
-indent = require 'indent-string'
+
+indent = (s, c) -> s.replace /^(?!\s*$)/gm, ' '.repeat c
 
 describe 'COMPILERS', ->
   COMPILERS = null

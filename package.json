@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "coffee -o lib -c src",
-    "test": "mocha --require coffeescript/register test/*",
+    "test": "mocha -r coffeescript/register test/*",
     "prepare": "npm run build",
     "version": "npm test",
     "postversion": "git push && git push --tags"
@@ -27,10 +27,9 @@
   },
   "homepage": "https://github.com/mohd-akram/compilers#readme",
   "devDependencies": {
-    "ajv": "^7.0.3",
-    "ajv-formats": "^1.5.1",
-    "coffeescript": "^2.5.1",
-    "indent-string": "^4.0.0",
-    "mocha": "^8.2.1"
+    "ajv": "^8.14.0",
+    "ajv-formats": "^3.0.1",
+    "coffeescript": "^2.7.0",
+    "mocha": "^10.4.0"
   }
 }
